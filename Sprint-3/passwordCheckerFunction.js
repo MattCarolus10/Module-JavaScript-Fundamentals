@@ -46,26 +46,40 @@
 
 
 //Exercise 3: output and return 
-const password3 = "Mattcarolus10";
-const output = checkPassword("Mattcarolus10");
+// const password3 = "Mattcarolus10";
+// const output = checkPassword("Mattcarolus10");
 
-// Receive the value which the user entered;
-function checkPassword(userInput) {
-    let response;
+// // Receive the value which the user entered;
+// function checkPassword(userInput) {
+//     let response;
 
-// Compare the two values;
-if (userInput===password3) {
+// // Compare the two values;
+// if (userInput===password3) {
 
-// If they match print "Correct password entered";
-    response = "Correct password entered ";
-}
+// // If they match print "Correct password entered";
+//     response = "Correct password entered ";
+// }
 
-else {
-// If they don't match print "Incorrect password, please try again";
-    response = "Incorrect password, please try again";
-}
-return response;
-}
-console.log(output);
+// else {
+// // If they don't match print "Incorrect password, please try again";
+//     response = "Incorrect password, please try again";
+// }
+// return response;
+// }
+// console.log(output);
  
+// Exercise 4
+// const password4 = "Mattcarolus123"
 
+// function checkPassword(userInput) {
+//     const response = userInput === password4;
+//     return response
+// }
+// console.log(checkPassword("Mattcarolus"))
+
+// Exercise 5
+const password5 = "Mattcarolus123"
+function passwordChecker(userInput) {
+    return userInput === password5
+}
+console.log(passwordChecker("Mattcarolus"))
