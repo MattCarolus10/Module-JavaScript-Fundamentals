@@ -21,7 +21,7 @@ const dir = filePath.slice(0, lastSlashIndex);
 console.log(`The dir part of ${filePath} is ${dir}`);
 
 const lastDotIndex = base.lastIndexOf(".");
-const ext = base.slice(lastDotIndex + 1);
+const ext = base.slice(lastDotIndex);
 console.log(`The ext part of ${filePath} is ${ext}`);
 
 
