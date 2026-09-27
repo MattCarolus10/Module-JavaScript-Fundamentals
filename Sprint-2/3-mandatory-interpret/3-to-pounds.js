@@ -44,9 +44,9 @@ console.log(`£${pounds}.${pence}`);
 
 // Line 14-16 created a variable "pence", using the subString(paddedPenceNumberString.length - 2) 
 // to check the length of the value of the variable "paddedPenceNumberString" which remain 399 from line 8
-// The "substring(paddedPenceNumberString.length - 2)" function deducts 3 leaving the last two numbers 99 
-// PadEnd(2, "0") ensure the value remains 2 and 0 to be added to value less than 2. 
-// However, we already have in our "pence" variable at a value of 2 numbers "99"
+// substring(length - 2) takes the last 2 characters of the padded value, giving us the pence (99)
+// padEnd(2, "0") makes sure the value is at least 2 characters long, adding "0" if it is shorter
+// in this case the pence value is already 2 characters ("99"), so padEnd adds nothing
 
 // Line 18 printed our codes a formatted style adding the pound sign "£" 
 
