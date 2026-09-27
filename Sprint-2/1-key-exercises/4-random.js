@@ -9,4 +9,4 @@ console.log(num);
 // (maximum - minimum) workout the size of the range: 100 - 1 + 1 = 100
 // Math.random() gives a decimal from 0 up to just under 1 (0.9999999).
 // Math.floor() takes out all decimal and make them a whole number from 0 to 99.
-// + minimum add 1 to the expression at the end because it is decleared a variable.
+// + minimum shift 1 through 100 in the expression 
