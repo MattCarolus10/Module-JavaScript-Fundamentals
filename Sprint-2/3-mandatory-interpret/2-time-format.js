@@ -1,4 +1,5 @@
-const movieLength = 3661; // length of movie in seconds
+// const movieLength = 3661; // length of movie in seconds
+const movieLength = 100.65;
 
 const remainingSeconds = movieLength % 60;
 const totalMinutes = (movieLength - remainingSeconds) / 60;
@@ -13,7 +14,7 @@ console.log(result);
 
 // a) How many variable declarations are there in this program?
 
-// Answer: There is only 6 variable declearation altogether in this program
+// Answer: There is only 6 variable declaration altogether in this program
 
 // b) How many function calls are there?
 
