@@ -1,11 +1,9 @@
 function pad(num) {
-  // console.log(num)
   let numString = num.toString();
-  // console.log(numString, "numstr")
+
   while (numString.length < 2) {
     numString = "0" + numString;
   }
-  //  console.log(numString, "FULLNUM")
   return numString;
 }
 
