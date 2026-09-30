@@ -19,3 +19,7 @@
 // Arrow function without the {} and return 
 
 // (decimalNumber) => `${decimalNumber * 100}%`;
+
+
+const greeting = (myName, age) => `My name is ${myName}, I am ${age} years old! `
+console.log(greeting("Mathew", 33))
