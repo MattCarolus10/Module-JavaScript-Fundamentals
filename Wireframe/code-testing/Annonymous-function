@@ -1,3 +1,21 @@
-function convertToPercentage(decimalNumber) {
-  return `${decimalNumber * 100}%`;
-}
+// Names function
+
+// function convertToPercentage(decimalNumber) {
+//   return `${decimalNumber * 100}%`;
+// }
+
+// Anonymous function
+
+// function (decimalNumber) {
+//   return `${decimalNumber * 100}%`;
+// }
+
+// Arrow function
+
+// (decimalNumber) => {
+//   return `${decimalNumber * 100}%`;
+// };
+
+// Arrow function without the {} and return 
+
+// (decimalNumber) => `${decimalNumber * 100}%`;
