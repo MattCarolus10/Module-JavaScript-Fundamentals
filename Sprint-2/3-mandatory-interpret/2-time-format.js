@@ -1,5 +1,5 @@
 // const movieLength = 3661; // length of movie in seconds
-const movieLength = 100.65;
+const movieLength = -100;
 
 const remainingSeconds = movieLength % 60;
 const totalMinutes = (movieLength - remainingSeconds) / 60;
@@ -37,4 +37,4 @@ console.log(result);
 
 // f) Try experimenting with different values of movieLength. Will this code work for all values of movieLength? Explain your answer
 
-// Answer: It will work for integer values and will give us clear and clean result using this code. However, the result would not be clean as this using float values
+// Answer: Any whole number from 0 up works, but decimals and negatives numbers will break it.
