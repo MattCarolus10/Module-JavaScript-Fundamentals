@@ -1,0 +1,3 @@
+function convertToPercentage(decimalNumber) {
+  return `${decimalNumber * 100}%`;
+}
