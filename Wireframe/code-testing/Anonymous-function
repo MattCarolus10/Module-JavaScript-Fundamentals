@@ -20,6 +20,17 @@
 
 // (decimalNumber) => `${decimalNumber * 100}%`;
 
+// Assigning functions to a variable
 
-const greeting = (myName, age) => `My name is ${myName}, I am ${age} years old! `
-console.log(greeting("Mathew", 33))
+const doubleNumber = function(number){
+    return number *2;
+}
+
+const halfNumber = (number) => number / 2;
+
+console.log("doubled number:", doubleNumber(2));
+console.log("halved number:", halfNumber(2));
+
+
+// const greeting = (myName, age) => `My name is ${myName}, I am ${age} years old! `
+// console.log(greeting("Mathew", 33))
